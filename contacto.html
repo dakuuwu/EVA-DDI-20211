@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fundación LEGABITRA</title>
+    <link rel="stylesheet" href="css-grid.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="row flex-container flex-center">
+        <div>
+            <h3 style="margin-bottom: 0">Fundación</h3>
+            <h1 style="margin-top: 0">LEGABITRA</h1>
+        </div>
+    </div>
+</header>
+<nav>
+    <div>
+        <ul>
+            <li><a class="ini" href="index.html">Inicio</a></li>
+            <li><a class="qs" href="qs.html">Nosotres</a></li>
+            <li><a class="cur" href="cursos.html">Cursos</a></li>
+            <li><a class="cha" href="charlas.html">Charlas</a></li>
+            <li><a class="con active" href="contacto.html">Contacto</a></li>
+            <li><a class="bus" href="busqueda.html">Búsqueda</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="row">
+    <div class="col-8 col-s-8 flex-container flex-column">
+        <h2 class="textcenter">Contacto</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dicta ea eum hic iure, molestiae molestias
+            placeat quae quaerat quo reprehenderit, ullam veritatis vitae voluptas voluptate! Facilis illum perspiciatis
+            quae?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium culpa, cumque eligendi eum fugiat id
+            ipsam iusto qui ratione tempora. Beatae cum cupiditate excepturi ipsam maxime molestiae officia pariatur,
+            similique.
+        </p>
+        <form style="width: 100%">
+            <label for="fname">Nombres:</label><br>
+            <input style="width: 100%" type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Apellidos:</label><br>
+            <input style="width: 100%" type="text" id="lname" name="lname"><br>
+
+            <label for="email">Email:</label><br>
+            <input style="width: 100%" type="email" id="email" name="email"><br>
+
+            <label for="subject">Asunto:</label><br>
+            <input style="width: 100%" type="text" id="subject" name="subject"><br>
+
+            <label for="msj">Mensaje:</label><br>
+            <textarea style="width: 100%" id="msj" name="msj" rows="8" cols="100"></textarea><br>
+            <input type="reset" value="Limpiar campos"> <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <aside>
+        <div class="col-4 col-s-4 flex-column flex-container textcenter">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.671292519877!2d-70.55526642560119!3d-33.40573893034407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cec02ea4cebf%3A0x29dd711ed6294ee3!2sInacap%20Apoquindo!5e0!3m2!1sen!2scl!4v1621906161657!5m2!1sen!2scl"
+                    width="auto" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <h4>Dirección:</h4>
+            <p>Calle falsa 123, Santiasco de Shile.</p>
+        </div>
+    </aside>
+</div>
+<footer>
+    <div class="row flex-container flex-center">
+        <div style="padding-right: 5em">
+            <a href="index.html" style="text-align: center;"><h4>Inicio</h4></a>
+            <a href="index.html" style="text-align: center;"><h4>Nosotres</h4></a>
+            <a href="index.html" style="text-align: center;"><h4>Cursos</h4></a>
+        </div>
+        <div>
+            <h3 style="margin-bottom: 0">Fundación</h3>
+            <h1 style="margin-top: 0">LEGABITRA</h1>
+        </div>
+        <div style="padding-left: 5em;">
+            <a href="index.html" style="text-align: center;"><h4>Charlas</h4></a>
+            <a href="index.html" style="text-align: center;"><h4>Contacto</h4></a>
+            <a href="index.html" style="text-align: center;"><h4>Búsqueda</h4></a>
+        </div>
+    </div>
+</footer>
+<script>
+    /*to prevent Firefox FOUC, this must be here*/
+    let FF_FOUC_FIX;
+</script>
+</body>
+</html>
